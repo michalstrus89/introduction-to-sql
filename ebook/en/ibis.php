@@ -12,6 +12,14 @@ return [
     'author' => 'Bobby Iliev',
 
     /**
+     * The levels of the table of contents.
+     */
+    'toc_levels' => [
+        'H1' => 0,
+        'H2' => 1,
+    ],
+
+    /**
      * CSS inline style for the page header.
      * If you want to skip header, comment the line
      */
